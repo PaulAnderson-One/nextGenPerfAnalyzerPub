@@ -19,7 +19,11 @@ When a great many data-points are present  it can be hard to tell from a time-se
 
 The patterns that the 2 graphs show will tell you a lot about the behavior. Clicking through the different milestone types **particularly if you sort the milestones in logical order considering the execution flow** will help visualize where the slow spots are.
 
-The data-grid <img src="./doc/img/datagrid.png" width="350"/> is sortable (click headers) to make it easier to locate problem areas, maxima etc..
+The data-grid
+
+<img src="./doc/img/datagrid.png" width="350"/> 
+
+is sortable (click headers) to make it easier to locate problem areas, maxima etc..
 
 A more intuitive way to spot problems is to look for long transit times oni the scatter plot. Zoom in by dragging (take care to retain all the vertical piece of the plot so you can always see how much data to expect in the grid. See 
 <img src="./doc/img/zooming.png" width="350"/>
