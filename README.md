@@ -7,7 +7,7 @@
 1. select a logfile here. Selecting a log triggers parsing (watch the log window to see progress). A logfile with 280K lines can parse in about 6 seconds; performance will vary based on density of relevant log-lines, number of relevant log-lines etc..
 1. if a config-file is loaded, click this tab to see it (the apparent strangeness of the config will be documented later)
 
-![analysisAndConfigs](/doc/img/analysisAndConfigs.png)
+!<img src="./doc/img/analysisAndConfigs.jpg" width="400"/>
 
 # analysis
 
