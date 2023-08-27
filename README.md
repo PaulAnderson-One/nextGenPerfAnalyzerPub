@@ -21,18 +21,22 @@ The patterns that the 2 graphs show will tell you a lot about the behavior. Clic
 
 The data-grid
 
-<img src="./doc/img/datagrid.png" width="350"/> 
+<img src="./doc/img/datagrid.png" width="450"/> 
 
 is sortable (click headers) to make it easier to locate problem areas, maxima etc..
 
-A more intuitive way to spot problems is to look for long transit times oni the scatter plot. Zoom in by dragging (take care to retain all the vertical piece of the plot so you can always see how much data to expect in the grid. See 
+A more intuitive way to spot problems is to look for long transit times oni the scatter plot. Zoom in by dragging (take care to retain all the vertical piece of the plot so you can always see how much data to expect in the grid. See below:
+
 <img src="./doc/img/zooming.png" width="350"/>
 
-Once zoomed, the data listed in the grid is filtered to include only those transit-events whose start-time is withing the clock-time range you zoomed to. If you zoom close enough (take care to retain all the data-points in the plot withing your zoom-time) the data can be filtered until just a few points show - making it easy to spot the bad players in the grid. Click on the correlationID entry for one of the bad players - that will find all the transit-events with that correlationID and list them in the tree-view (see "selected event" tab on the log-window. This will make it obvious whether there is some system effect that is affecting all the parts of the request (correlationID) you clicked.
+Once zoomed, the data listed in the grid is filtered to include only those transit-events whose start-time is withing the clock-time range you zoomed to. If you zoom close enough (take care to retain all the data-points in the plot withing your zoom-time) the data can be filtered until just a few points show - making it easy to spot the bad players in the grid. Click on the correlationID entry for one of the bad players - that will find all the transit-events with that correlationID and list them in the tree-view (see "selected event" tab on the log-window). This will make it obvious whether there is some system effect that is affecting all the parts of the request (correlationID) you clicked.
 
 <img src="./doc/img/isolate1.jpg" width="150"/>
 
 <img src="./doc/img/isolate2.jpg" width="350"/>
+
+<img src="./doc/img/isolate2a.jpg" width="350"/>
+
 <img src="./doc/img/isolate3.jpg" width="350"/>
 
 Being able to zoom in, isolate individual requests and see the end-to-end itinerary for that request, in context, is essential to understanding whether it's an outlier or if something systemic is going on. The itinerary shows details of each section of the code. Once a request is identified, the timing chart shows time-bars per section on the chart, clarifying where paralellism exists
