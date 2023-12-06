@@ -29,7 +29,9 @@ A more intuitive way to spot problems is to look for long transit times oni the 
 
 <img src="./doc/img/zooming.png" width="350"/>
 
-Once zoomed, the data listed in the grid is filtered to include only those transit-events whose start-time is withing the clock-time range you zoomed to. If you zoom close enough (take care to retain all the data-points in the plot withing your zoom-time) the data can be filtered until just a few points show - making it easy to spot the bad players in the grid. Click on the correlationID entry for one of the bad players - that will find all the transit-events with that correlationID and list them in the tree-view (see "selected event" tab on the log-window). This will make it obvious whether there is some system effect that is affecting all the parts of the request (correlationID) you clicked.
+Once zoomed, the data listed in the grid is filtered to include only those transit-events whose start-time is withing the clock-time range you zoomed to. 
+
+Keep zooming until the features of interest are clearly separated (take care to retain all the data-points in the plot withing your zoom-time, and ensure the vertical domain is not zoomed as well - think of this as "horizontal-only zooming") the data can be filtered until just a few points show - making it easy to spot the bad players in the grid. Click on the `correlationID` one of the bad players (in the data-grid view) - that will find all the transit-events with that correlationID and list them in the tree-view (see "selected event" tab on the log-window). This will make it obvious whether there is some system effect that is affecting all the parts of the request (correlationID) you clicked.
 
 <img src="./doc/img/isolate1.jpg" width="150"/>
 
