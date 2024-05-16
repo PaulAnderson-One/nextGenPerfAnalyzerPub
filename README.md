@@ -1,5 +1,9 @@
 # nextGenPerfAnalyzer
 
+note: this is a 100% rewrite from scratch (own equipment, own time) of a tool that changed the game many times in the field, & in-house.
+
+It's a stripped down, keyhole view into the mind-boggling power of this approach (probably 0.1% of the cost of the big-name tools). 
+
 1. select an existing config-file
 1. select a directory that has logs you want to analyze
 1. once a config is selected, this selectable list will be populated in the same order as the file
