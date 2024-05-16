@@ -1,3 +1,5 @@
+coming soon - video of it being used.
+
 # nextGenPerfAnalyzer
 
 note: this is a 100% rewrite from scratch (own equipment, own time) of a tool that changed the game many times in the field, & in-house.
